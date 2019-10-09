@@ -2,9 +2,6 @@ body{
   background-color: grey;
   margin: auto;
 }
-main{
-  text-align: center;
-}
 
 .prodotto_1{
   position: relative;
@@ -19,13 +16,13 @@ main{
 .prodotto_3{
   position: relative;
   width: 300px;
+
 }
 
-img{
+img {
   background-color: white;
   width: 300px;
   height: 350px;
-  display: inline-block;
 }
 
 .sconto_1{
@@ -49,19 +46,44 @@ img{
   background-color: green;
 }
 
-.primo{
+#primo{
   position: relative;
   top: 0;
 }
 
-.secondo{
+#secondo{
   position: absolute;
   top: 0;
   left: 310px;
 }
 
-.terzo{
+#terzo{
   position: absolute;
   top: 0;
   left: 620px;
+}
+
+#quarto{
+  position: relative;
+  top: 6px;
+}
+
+#quinto{
+  position: absolute;
+  top: 360px;
+  left: 310px;
+}
+
+#sesto{
+  position: absolute;
+  top: 360px;
+  left: 620px;
+}
+
+.img_hover:hover{
+  background-image: url('https://purepng.com/public/uploads/large/purepng.com-red-heartheartoxygen-and-nutrientshumanclipart-1421526551485ppgdd.png');
+  background-position: left;
+  background-size: 40px;
+  background-repeat: no-repeat;
+  z-index: 2;
 }
